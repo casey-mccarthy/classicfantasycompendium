@@ -3,280 +3,280 @@
   "name": "classicfantasycompendium",
   "title": "Classic Fantasy Compendium",
   "description": "Open Game Content from Old-School Essentials Classic Fantasy SRD",
-  "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+  "version": "1.0.3",
   "relationships": {
-    "systems": [
-      {
-        "id": "ose",
-        "type": "system",
-        "manifest": "https://github.com/vttred/ose/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "1.8.0",
-          "verified": "2.0.0"
-        }
-      },
-      {
-        "id": "uft",
-        "type": "system",
-        "manifest": "https://github.com/unitedfantasytoolkit/unitedfantasytoolkit/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "0.1.0",
-          "verified": "0.1.0"
-        }
-      }
-    ]
+      "systems": [
+          {
+              "id": "ose",
+              "type": "system",
+              "manifest": "https://github.com/vttred/ose/releases/latest/download/system.json",
+              "compatibility": {
+                  "minimum": "1.8.0",
+                  "verified": "2.0.0"
+              }
+          },
+          {
+              "id": "uft",
+              "type": "system",
+              "manifest": "https://github.com/unitedfantasytoolkit/unitedfantasytoolkit/releases/latest/download/system.json",
+              "compatibility": {
+                  "minimum": "0.1.0",
+                  "verified": "0.1.0"
+              }
+          }
+      ]
   },
   "authors": [
-    {
-      "name": "Classic Fantasy Compendium Contributors",
-      "url": "https://github.com/unitedfantasytoolkit/classicfantasycompendium/graphs/contributors"
-    },
-    {
-      "name": "OSE Content Contributors",
-      "url": "https://github.com/vttred/ose-content/graphs/contributors"
-    },
-    {
-      "name": "OGL COPYRIGHT NOTICE",
-      "url": "https://github.com/unitedfantasytoolkit/classicfantasycompendium/blob/main/LICENSES/LicenseRef-OGL-1.0a.txt"
-    }
+      {
+          "name": "Classic Fantasy Compendium Contributors",
+          "url": "https://github.com/unitedfantasytoolkit/classicfantasycompendium/graphs/contributors"
+      },
+      {
+          "name": "OSE Content Contributors",
+          "url": "https://github.com/vttred/ose-content/graphs/contributors"
+      },
+      {
+          "name": "OGL COPYRIGHT NOTICE",
+          "url": "https://github.com/unitedfantasytoolkit/classicfantasycompendium/blob/main/LICENSES/LicenseRef-OGL-1.0a.txt"
+      }
   ],
   "scripts": [],
   "esmodules": [],
   "styles": [],
   "packs": [
-    {
-      "name": "abilities-cleric",
-      "label": "Abilities: Cleric",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-cleric.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-dwarf",
-      "label": "Abilities: Dwarf",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-dwarf.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-elf",
-      "label": "Abilities: Elf",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-elf.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-fighter",
-      "label": "Abilities: Fighter",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-fighter.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-halfling",
-      "label": "Abilities: Halfling",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-halfling.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-magic-user",
-      "label": "Abilities: Magic-User",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-magic-user.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "abilities-thief",
-      "label": "Abilities: Thief",
-      "package": "classicfantasycompendium",
-      "path": "packs/abilities-thief.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "equipment-adventuring-gear",
-      "label": "Equipment: Adventuring Gear",
-      "package": "classicfantasycompendium",
-      "path": "packs/equipment-adventuring-gear.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "equipment-ammunition",
-      "label": "Equipment: Ammunition",
-      "package": "classicfantasycompendium",
-      "path": "packs/equipment-ammunition.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "equipment-armour",
-      "label": "Equipment: Armour",
-      "package": "classicfantasycompendium",
-      "path": "packs/equipment-armour.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "equipment-coins",
-      "label": "Equipment: Coins",
-      "package": "classicfantasycompendium",
-      "path": "packs/equipment-coins.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "equipment-weapons",
-      "label": "Equipment: Weapons",
-      "package": "classicfantasycompendium",
-      "path": "packs/equipment-weapons.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "monsters",
-      "label": "Monsters",
-      "package": "classicfantasycompendium",
-      "path": "packs/monsters.db",
-      "entity": "Actor",
-      "type": "Actor",
-      "system": "ose"
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "package": "classicfantasycompendium",
-      "path": "packs/spells.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "tables-encounters",
-      "label": "Tables: Encounters",
-      "package": "classicfantasycompendium",
-      "path": "packs/tables-encounters.db",
-      "entity": "RollTable",
-      "type": "RollTable",
-      "system": "ose"
-    },
-    {
-      "name": "tables-items",
-      "label": "Tables: Items",
-      "package": "classicfantasycompendium",
-      "path": "packs/tables-items.db",
-      "entity": "RollTable",
-      "type": "RollTable",
-      "system": "ose"
-    },
-    {
-      "name": "treasures",
-      "label": "Treasure Tables",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures.db",
-      "entity": "RollTable",
-      "type": "RollTable",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-armour-shields",
-      "label": "Treasures: Armour and Shields",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-armour-shields.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-miscellaneous-items",
-      "label": "Treasures: Miscellaneous Items",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-miscellaneous-items.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-potions",
-      "label": "Treasures: Potions",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-potions.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-rings",
-      "label": "Treasures: Rings",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-rings.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-rods-staffs-wands",
-      "label": "Treasures: Rods, Staffs, Wands",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-rods-staffs-wands.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-swords",
-      "label": "Treasures: Swords",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-swords.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "treasures-weapons",
-      "label": "Treasures: Weapons",
-      "package": "classicfantasycompendium",
-      "path": "packs/treasures-weapons.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "ose"
-    },
-    {
-      "name": "classic-fantasy-srd",
-      "label": "Classic Fantasy SRD",
-      "package": "classicfantasycompendium",
-      "path": "packs/classic-fantasy-srd.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry",
-      "system": "ose"
-    }
+      {
+          "name": "abilities-cleric",
+          "label": "Abilities: Cleric",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-cleric.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-dwarf",
+          "label": "Abilities: Dwarf",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-dwarf.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-elf",
+          "label": "Abilities: Elf",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-elf.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-fighter",
+          "label": "Abilities: Fighter",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-fighter.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-halfling",
+          "label": "Abilities: Halfling",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-halfling.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-magic-user",
+          "label": "Abilities: Magic-User",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-magic-user.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "abilities-thief",
+          "label": "Abilities: Thief",
+          "package": "classicfantasycompendium",
+          "path": "packs/abilities-thief.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "equipment-adventuring-gear",
+          "label": "Equipment: Adventuring Gear",
+          "package": "classicfantasycompendium",
+          "path": "packs/equipment-adventuring-gear.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "equipment-ammunition",
+          "label": "Equipment: Ammunition",
+          "package": "classicfantasycompendium",
+          "path": "packs/equipment-ammunition.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "equipment-armour",
+          "label": "Equipment: Armour",
+          "package": "classicfantasycompendium",
+          "path": "packs/equipment-armour.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "equipment-coins",
+          "label": "Equipment: Coins",
+          "package": "classicfantasycompendium",
+          "path": "packs/equipment-coins.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "equipment-weapons",
+          "label": "Equipment: Weapons",
+          "package": "classicfantasycompendium",
+          "path": "packs/equipment-weapons.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "monsters",
+          "label": "Monsters",
+          "package": "classicfantasycompendium",
+          "path": "packs/monsters.db",
+          "entity": "Actor",
+          "type": "Actor",
+          "system": "ose"
+      },
+      {
+          "name": "spells",
+          "label": "Spells",
+          "package": "classicfantasycompendium",
+          "path": "packs/spells.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "tables-encounters",
+          "label": "Tables: Encounters",
+          "package": "classicfantasycompendium",
+          "path": "packs/tables-encounters.db",
+          "entity": "RollTable",
+          "type": "RollTable",
+          "system": "ose"
+      },
+      {
+          "name": "tables-items",
+          "label": "Tables: Items",
+          "package": "classicfantasycompendium",
+          "path": "packs/tables-items.db",
+          "entity": "RollTable",
+          "type": "RollTable",
+          "system": "ose"
+      },
+      {
+          "name": "treasures",
+          "label": "Treasure Tables",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures.db",
+          "entity": "RollTable",
+          "type": "RollTable",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-armour-shields",
+          "label": "Treasures: Armour and Shields",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-armour-shields.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-miscellaneous-items",
+          "label": "Treasures: Miscellaneous Items",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-miscellaneous-items.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-potions",
+          "label": "Treasures: Potions",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-potions.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-rings",
+          "label": "Treasures: Rings",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-rings.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-rods-staffs-wands",
+          "label": "Treasures: Rods, Staffs, Wands",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-rods-staffs-wands.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-swords",
+          "label": "Treasures: Swords",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-swords.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "treasures-weapons",
+          "label": "Treasures: Weapons",
+          "package": "classicfantasycompendium",
+          "path": "packs/treasures-weapons.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "ose"
+      },
+      {
+          "name": "classic-fantasy-srd",
+          "label": "Classic Fantasy SRD",
+          "package": "classicfantasycompendium",
+          "path": "packs/classic-fantasy-srd.db",
+          "entity": "JournalEntry",
+          "type": "JournalEntry",
+          "system": "ose"
+      }
   ],
   "minimumCoreVersion": "0.6.2",
   "compatibleCoreVersion": "12",
   "compatibility": {
-    "minimum": "0.6.2",
-    "verified": "12"
+      "minimum": "0.6.2",
+      "verified": "12"
   },
-  "url": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION"
+  "url": "https://github.com/casey-mccarthy/classicfantasycompendium",
+  "manifest": "https://github.com/casey-mccarthy/classicfantasycompendium/releases/latest/download/module.json",
+  "download": "https://github.com/casey-mccarthy/classicfantasycompendium/releases/download/1.0.3/module.zip"
 }
